@@ -7,29 +7,26 @@
 </head>
 <body align = "center">
     <h1>Hotel Room Booking Form</h1>
-    <form action="/action">
+    <form type = "post" action="/action">
         <label for="name">Full Name: 
-            <input type="text" id = "name" name = "name" placeholder = "Enter full name">
+            <input type="text" id = "name" name = "name" placeholder = "Enter full name" required>
         </label>
         <br><br>
         <label for="email">Email:
-            <input type="email" id = "email" name = "email" placeholder = "Enter Email-id">
+            <input type="email" id = "email" name = "email" placeholder = "Enter Email-id" required>
         </label>
         <br><br>
         <label for="phone">Phone:
-            <input type="tel" id = "phone" name = "phone" placeholder = "Enter mobile number">
+            <input type="tel" id = "phone" name = "phone" placeholder = "Enter mobile number" required>
         </label>
         <br><br>
-        <label for="in-date">Check-in date:
-            <input type="date" id = "in-date" name = "in-date">
-        </label>
+        <label for="in-date">Check in date</label>
+        <input type="date" name = "in - date" id = "in - date">
         <br><br>
-        <label for="out-date">Check-out date:
-            <input type="date" id = "out-date" name = "out-date">
-        </label>
+        <label for="out-date">Check out date</label>
+        <input type="date" name = "out - date" id = "out - date">
         <br><br>
-        
-        Room type:
+        <label for="room">Room type: </label>
         <select name="room" id="room">
             <option value="single">Single room</option>
             <option value="twin">Twin room</option>
@@ -37,7 +34,7 @@
             <option value="triple">Triple room</option>
             <option value="quad">Quad room</option>
         </select>
-    <br><br>
+        <br><br>
 
         <label for="guest_no.">Number of Guests:
             <input type="number" id = "guest_no." name = "guest_no.">
