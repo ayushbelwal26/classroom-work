@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body style="background-color:#f4f4f4; font-family:Arial, sans-serif;">
+
+    <h1 style="text-align:center; color:#333; margin-top:30px;">Registration Form</h1>
+
+    <form action="/action" style="background-color:white; width:80%; max-width:500px; margin:30px auto; padding:30px; border-radius:10px; box-shadow:0 4px 12px rgb(0,0,0,0);">
+
+    <div style="margin-bottom:20px; text-align:center;">
+        <label for="Fname">First Name : </label>
+        <input type="text" id="Fname" name="Fname" placeholder="First Name" style="width:45%; padding:10px; margin-right:5%; border:1px solid #ccc; border-radius:5px; font-size:1em;">
+        <br>
+        <label for="Fname">Last Name : </label>
+        <input type="text" id="Lname" name="Lname" placeholder="Last Name" style="width:45%; padding:10px; border:1px solid #ccc; border-radius:5px; font-size:1em;">
+    </div>
+
+    <div style="margin-bottom:20px;">
+        <label for="gen" style="display:block; margin-bottom:8px; color:#555; font-weight:bold;">Select Gender:</label>
+        <select name="gen" id="gen" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:5px; font-size:1em;">
+        <option value="m">Male</option>
+        <option value="f">Female</option>
+        <option value="o">Other</option>
+        </select>
+    </div>
+
+    <div style="margin-bottom:20px;">
+        <label for="perm" style="color:#555;">
+        <input type="checkbox" name="perm" id="perm" style="margin-right:8px;">I agree to all terms of service
+        </label>
+    </div>
+
+    <div style="text-align:center;">
+        <button type="submit" style="background-color:#ff4b4b; color:white; border:none; padding:12px 25px; border-radius:6px; font-size:1em; cursor:pointer; transition:0.3s;">Register
+        </button>
+    </div>
+
+    </form>
+
+</body>
+</html>
