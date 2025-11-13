@@ -1,0 +1,6 @@
+/* Element selector for paragraph */
+p {
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
