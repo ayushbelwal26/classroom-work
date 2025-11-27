@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding : 0;
+
+}
+.box1{
+    width: 200px;
+    background:lightgreen;
+    padding:20px;
+    margin : 20px ;
+    border:2px solid red;
+}
+
+/* Border */
+.box2{
+    width:200px;
+    background:lightblue;
+    padding:30px;
+    margin : 20px;
+    border:2px solid brown;
+    box-sizing:border-box;
+}
+
+.box3{
+    width:200px;
+    background:magenta;
+    padding : 50px;
+    margin : 20px;
+    border:2px solid ;
+    box-sizing:border-box;
+}
